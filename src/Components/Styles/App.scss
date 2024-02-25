@@ -1,0 +1,37 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 2rem 0;
+  background-color: $dark;
+  
+  @include media-md() {
+    gap: 20px;
+    padding: 4rem 0;
+  }
+  .btn-div{
+    animation: come-in 1.5s ease-in-out;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  button{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background: #3B252C;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}

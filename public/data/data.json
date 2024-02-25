@@ -1,0 +1,23 @@
+{
+  "currentUser": {
+    "username": "Paramarthi"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "I am searching for an efficient sorting algorithm for arrays",
+      "createdAt": "23 February 2024",
+      "username": "Sakshi",
+      "currentUser": false,
+      "replies": [{
+        "id": 2,
+        "content": "@Sakshi, I think you can STL if you are using C++",
+        "createdAt": "24 February 2024",
+        "username": "Harsh",
+        "currentUser": false,   
+        "replies": []
+      }]
+    }
+
+  ]
+}
